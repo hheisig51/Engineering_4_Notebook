@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
+- [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 
-- [Onshape_Assignment_Template](#Onshape_Assignment_Template)
+- [Onshape_Assignment_Template](#onshape_assignment_template)
 
 ## Raspberry_Pi_Assignment_Template
 
@@ -28,8 +28,6 @@ Give me a link to your code. [Something like this](https://github.com/millerm22/
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
-&nbsp;
-
 ## Onshape_Assignment_Template
 
 ### Assignment Description
@@ -47,8 +45,6 @@ Take a nice screenshot of your Onshape document.
 ### Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-&nbsp;
 
 ## Media Test
 
