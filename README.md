@@ -30,7 +30,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ## Onshape_Assignment_Template
 
-### Assignment Description
+### Onshape Assignment Description
 
 Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
@@ -42,7 +42,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 Take a nice screenshot of your Onshape document.
 
-### Reflection
+### Onshape Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
@@ -56,6 +56,8 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Image
 
-[Hyperlink text](/raspberry-pi/temp.py)
+![MATTHEW MILLER](/images/Matt.jpg)
 
 ### Test GIF
+
+![When it comes time to complete a project](/images/homer.gif)
