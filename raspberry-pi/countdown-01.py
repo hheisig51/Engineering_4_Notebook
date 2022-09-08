@@ -3,8 +3,6 @@
 import board
 import time
 
-x = 10
-
 for x in range(10, 0, -1):
     if x > 0:
         print(f"{x} seconds left!")
