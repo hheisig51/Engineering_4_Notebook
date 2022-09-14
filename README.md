@@ -2,7 +2,12 @@
 
 ## Table of Contents
 
+- [Pico](#pico)
 - [Countdown](#countdown-assignment-1)
+
+## Pico
+
+These assignments were completed on a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) microcontroller, running [Circuit Python](https://circuitpython.org/board/raspberry_pi_pico/) 7.3.2
 
 ## Countdown (Assignment #1)
 
@@ -12,11 +17,11 @@ The purpose of this assignment is to print a "countdown from 10 seconds to 0 (li
 
 ### Countdown Evidence
 
-[![Countdown-1](/images/Thumbnail_Countdown-1.png)](https://youtu.be/f14LzZC5-tY)
+[![Countdown-1](/images/Thumbnail_Countdown-1.png)](https://youtu.be/wBfttG0zpk0)
 
 ### Countdown Wiring
 
-There's no wiring in this assignment.
+There's no wiring in this assignment. Just plug the pico into the computer.
 
 ### Countdown Code
 
