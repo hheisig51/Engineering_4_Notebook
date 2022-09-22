@@ -51,7 +51,7 @@ My biggest challenge was figuring out the loop. I first tried making two `while.
 
 ### Lights Description
 
-As the countdown  ticks down, a red light will blink every second. At 0 seconds (liftoff), a green LED will turn on.
+As the countdown ticks down, a red light will blink every second. At 0 seconds (liftoff), a green LED will turn on.
 
 ### Lights Evidence
 
@@ -84,7 +84,7 @@ for x in range(10, 0, -1): # Moves from 10 to 0 in increments of 1
         r_led.value = True # Turns the red LED on
         time.sleep(.3)
         r_led.value = False # Turns red LED off 0.3 seconds into the 1.0 second cycle.
-        time.sleep(.7) 
+        time.sleep(.7)
 
 print(f"Liftoff!") # Since x is not greater than 0, this prints
 g_led.value = True
@@ -95,6 +95,22 @@ g_led.value = False
 ### Lights Reflection
 
 This one was simple. Just remember, the long leg of the LED is the positive leg, and **always use a resistor**. I've forgotten that before, and it completely fries your LED.
+
+## Button (Launch Pad #3)
+
+### Button Description
+
+In addition to the previous segments (see 01-countdown.py and 02-lights.py), this assignments adds a button to start the countdown.
+
+### Button Evidence
+
+
+
+### Button Wiring
+
+### Button Code
+
+### Button Reflection
 
 ## About
 
