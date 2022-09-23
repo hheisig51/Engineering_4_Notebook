@@ -104,7 +104,7 @@ In addition to the previous segments (see 01-countdown.py and 02-lights.py), thi
 
 ### Button Evidence
 
-[![Button_3](/images/Thumbnail-Button_3.jpg)]()
+[![Button_3](/images/Thumbnail-Button_3.jpg)](https://youtu.be/kNC3ZjlUSRQ)
 
 ### Button Wiring
 
