@@ -5,14 +5,14 @@ import board
 import digitalio
 import time
 
-g_led = digitalio.DigitalInOut(board.GP18)
-r_led = digitalio.DigitalInOut(board.GP13)
-g_led.direction = digitalio.Direction.OUTPUT
+g_led = digitalio.DigitalInOut(board.GP18) # assigns a board.pin (GP18) to a variable (g_led)
+r_led = digitalio.DigitalInOut(board.GP13) 
+g_led.direction = digitalio.Direction.OUTPUT # assigns the variable, with a pin now attached to it, as an output
 r_led.direction = digitalio.Direction.OUTPUT
 
-button = digitalio.DigitalInOut(board.GP16)
+button = digitalio.DigitalInOut(board.GP16) # see above
 button.direction = digitalio.Direction.INPUT
-button.pull = digitalio.Pull.UP
+button.pull = digitalio.Pull.UP # sets the button to function as a "pull-up" resistor, with a default value of true.
 
 while True:
     if button.value == False:
