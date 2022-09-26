@@ -5,6 +5,7 @@
 - [Pico](#pico)
 - [Countdown](#countdown-launch-pad-1)
 - [Lights](#lights-launch-pad-2)
+- [Button](#button-launch-pad-3)
 - [About](#about)
 
 ## Pico
@@ -112,6 +113,8 @@ In addition to the previous segments (see 01-countdown.py and 02-lights.py), thi
 
 ### Button Code
 
+[03-button.py](/code/03-button.py)
+
 Let's import our libraries and setup our LEDs' like before.
 
 ```python
@@ -120,18 +123,22 @@ import digitalio
 import time
 
 g_led = digitalio.DigitalInOut(board.GP18) # assigns a board.pin (GP18) to a variable (g_led)
-r_led = digitalio.DigitalInOut(board.GP13) 
+r_led = digitalio.DigitalInOut(board.GP13)
 g_led.direction = digitalio.Direction.OUTPUT # assigns the variable, with a pin now attached to it, as an output
 r_led.direction = digitalio.Direction.OUTPUT
 ```
 
-Now, we'll setup the button, as an `INPUT` rather than an `OUTPUT`, and as a [pull-up] resistor.
+Now, we'll setup the button, as an `INPUT` rather than an `OUTPUT`, and as a [pull-up](https://www.electronics-tutorials.ws/logic/pull-up-resistor.html) resistor.
 
 ```python
 button = digitalio.DigitalInOut(board.GP16) # see above
 button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP # sets the button to function as a "pull-up" resistor, with a default value of true.
+```
 
+Same code as before, except the `for` loop is now nested inside of `if butto.value == False:`, making it only trigger when the button is pressed.
+
+```python
 while True:
     if button.value == False:
         for x in range(10, 0, -1): # Moves from 10 to 0 in increments of 1
@@ -145,10 +152,29 @@ while True:
         g_led.value = True
         time.sleep(2)
         g_led.value = False
-
 ```
 
 ### Button Reflection
+
+Figuring out the difference between a pull-up and a pull-down configuration for the button was very tricky. So, I made this little diagram to help myself out:
+
+|                 | Pull-up | Pull-down |
+| --------------- | ------- | --------- |
+| Default value   | True    | False     |
+| "Pressed" value | False   | True      |
+| Wired to        | GND     | 3V3(OUT)  |
+
+It was very frustrating figuring that out. My advice is to ask whatever question you need to ask to actually understand the wiring. Nobody's going to judge you unless they're a jerk.
+
+## Servo (Launch Pad #4)
+
+## Servo Description
+
+## Servo Evidence
+
+## Servo Wiring
+
+## Servo Reflection
 
 ## About
 
