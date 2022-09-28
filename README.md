@@ -172,7 +172,7 @@ It was very frustrating figuring that out. My advice is to ask whatever question
 
 ## Servo Video
 
-![[Servo_4](https://youtu.be/Ae4TovFA4m0)](/images/Thumbnail-Servo_4.jpg)
+[![Servo_4](/images/Thumbnail-Servo_4.jpg)](https://youtu.be/Ae4TovFA4m0)
 
 ## Servo Wiring
 
