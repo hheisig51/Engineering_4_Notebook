@@ -18,7 +18,7 @@ These assignments were completed on a [Raspberry Pi Pico](https://www.raspberryp
 
 The purpose of this assignment is to print a "countdown from 10 seconds to 0 (liftoff)" to the serial monitor.
 
-### Countdown Evidence
+### Countdown Video
 
 [![Countdown_1](/images/Thumbnail-Countdown_1.png)](https://youtu.be/wBfttG0zpk0)
 
@@ -54,7 +54,7 @@ My biggest challenge was figuring out the loop. I first tried making two `while.
 
 As the countdown ticks down, a red light will blink every second. At 0 seconds (liftoff), a green LED will turn on.
 
-### Lights Evidence
+### Lights Video
 
 [![Lights_2](/images/Thumbnail-Lights_2.png)](https://youtu.be/BNFl4jrQMi0)
 
@@ -103,7 +103,7 @@ This one was simple. Just remember, the long leg of the LED is the positive leg,
 
 In addition to the previous segments (see 01-countdown.py and 02-lights.py), this assignments adds a button to start the countdown.
 
-### Button Evidence
+### Button Video
 
 [![Button_3](/images/Thumbnail-Button_3.jpg)](https://youtu.be/kNC3ZjlUSRQ)
 
@@ -170,9 +170,13 @@ It was very frustrating figuring that out. My advice is to ask whatever question
 
 ## Servo Description
 
-## Servo Evidence
+## Servo Video
+
+![[Servo_4](https://youtu.be/Ae4TovFA4m0)](/images/Thumbnail-Servo_4.jpg)
 
 ## Servo Wiring
+
+![04-servo.py](/images/Wiring/04_servo_wiring.png)
 
 ## Servo Reflection
 
