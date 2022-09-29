@@ -6,6 +6,7 @@
 - [Countdown](#countdown-launch-pad-1)
 - [Lights](#lights-launch-pad-2)
 - [Button](#button-launch-pad-3)
+- [Servo](#servo-launch-pad-4)
 - [About](#about)
 
 ## Pico
