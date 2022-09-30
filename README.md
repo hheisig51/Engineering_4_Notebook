@@ -191,6 +191,10 @@ There is some new code relating to the servo, but it’s pretty standard. I reco
 
 This reflection is less about this singular assignment, but more about this Launch Pad assignment as a whole. I think it highlights the importance of segmenting your process when making something. Not fragmenting! You need to make sure things work together. But segmenting, and building one on top of the other, rather than building a servo and a button and lights and a countdown.
 
+## Accelerometer
+
+[![Accelerometer_5](/images/Thumbnail-Accelerometer_5.jpg)](https://youtu.be/TKAAT-HO4Mc)
+
 ## About
 
 “Somebody is thinking today” - Mr. Miller, my teacher

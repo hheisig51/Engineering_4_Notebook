@@ -18,9 +18,9 @@ button.pull = digitalio.Pull.UP
 pwm_servo = pwmio.PWMOut(board.GP15, duty_cycle=2 ** 15, frequency=50)
 servo_0 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 
-servo_0.angle = 0
-
 while True:
+    if button.value == True:
+        servo_0.angle = 1
     if button.value == False:
         for x in range(10, 0, -1): # Moves from 10 to 0 in increments of 1
             if x > 0:
@@ -30,7 +30,8 @@ while True:
                 r_led.value = False # Turns red LED off 0.3 seconds into the 1.0 second cycle.
                 time.sleep(.7) 
         print(f"Liftoff!") # Since x is not greater than 0, this prints
-        servo_0.angle = 179        
+        servo_0.angle = 180        
         g_led.value = True
         time.sleep(2)
         g_led.value = False
+        time.sleep(2) # To prevent servo from turning back too soon
