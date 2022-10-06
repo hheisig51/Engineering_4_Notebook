@@ -1,5 +1,7 @@
 # 2022-10-03, Em Heisig (hheisig51)
-# In this assignment, a red LED lights up if {x} is within a certain range (Acceleration of 0 to -4, which rougly corresponds with a rotation of 90 degrees)
+# In this assignment, a red LED lights up if {x} is within 
+# a certain range (Acceleration of 0 to -4, which rougly 
+# corresponds with a rotation of 90 degrees)
 
 import board
 import time
@@ -18,12 +20,12 @@ led.direction = digitalio.Direction.OUTPUT
 
 x = 1
 
-while True: # Just cleans up and prints all the values on one line, then sleeps for 0.5 seconds.
-    for x in range(1, 5, 1):
-        if x == 4:
+while True:
+    for x in range(1, 5, 1): # Loops a count from 1 to 5
+        if x == 4: # 1 out of 5 times, the values are printed
             print(f"x = {round(mpu.acceleration[0],3)}, y = {round(mpu.acceleration[1],3)}, z = {round(mpu.acceleration[2],3)}")
             x = 1
-        if mpu.acceleration[2] < 0 and mpu.acceleration[2] > -4:
+        if mpu.acceleration[2] < 0 and mpu.acceleration[2] > -4: # turns the LED on if x falls within this range
             led.value = True
             time.sleep(.1)
         else:
