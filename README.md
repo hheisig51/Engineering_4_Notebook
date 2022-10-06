@@ -21,7 +21,7 @@ The purpose of this assignment is to print a “countdown from 10 seconds to 0 (
 
 ### Countdown Video
 
-[![Countdown_1](/images/Thumbnail-Countdown_1.png)](https://youtu.be/wBfttG0zpk0)
+[![01_countdown.png](/thumbs/01_countdown.png)](https://youtu.be/wBfttG0zpk0)
 
 ### Countdown Wiring
 
@@ -29,7 +29,7 @@ There’s no wiring in this assignment. Just plug the pico into the computer.
 
 ### Countdown Code
 
-[01-countdown.py](/code/01-countdown.py):
+[01-countdown.py](/code/01_countdown.py):
 
 ```python
 # 2022-09-02, Em Heisig (hheisig51)
