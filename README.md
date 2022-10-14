@@ -293,7 +293,3 @@ while True:
 “Somebody is thinking today” - Mr. Miller
 
 Hi! I’m Em Heisig, and I’m a junior at Charlottesville High School. You can reach me at [hheisig51@charlottesvilleschools.org](hheisig51@charlottesvilleschools.org) or [github@eheisig.com](github@eheisig.com).
-
-<head>
-        <link rel="icon" type="image/x-icon" href="favicon.png">
-</head>
