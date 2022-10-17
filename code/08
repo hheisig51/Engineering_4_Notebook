@@ -1,0 +1,15 @@
+# 2022-10-17, Em Heisig (hheisig51)
+
+def isfloat(num):
+    try:
+        float(num[0])
+        return True
+    except ValueError:
+        return False
+
+while True:
+    print(f"Format: x1,y1,x2,y2,x3,y3\nPlease enter ALL of your coordinates:")
+    coords = input().split(',', 6)
+    print(isfloat(coords[0]))
+#    print(f"\nInput #1: ({coords[0]}, {coords[1]})\nInput #2: ({coords[2]}, {coords[3]})\nInput #3: ({coords[4]}, {coords[5]})\n")
+    
