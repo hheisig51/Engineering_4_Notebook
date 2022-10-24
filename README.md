@@ -7,6 +7,10 @@
 - [Lights](#lights-launch-pad-2)
 - [Button](#button-launch-pad-3)
 - [Servo](#servo-launch-pad-4)
+- [Accelerometer](#accelerometer-crash-avoidance-1)
+- [Light & Powerboost](#light-and-powerboost-crash-avoidance-2)
+- [OLED](#oled-crash-avoidance-3)
+- [Coordinates](#coordinates-launch-pad-1)
 - [About](#about)
 
 ## Pico
@@ -21,7 +25,7 @@ The purpose of this assignment is to print a “countdown from 10 seconds to 0 (
 
 ### Countdown Video
 
-[![01_countdown.png](/thumbs/01_countdown.png)](https://youtu.be/wBfttG0zpk0)
+[![01_countdown](/thumbs/01_countdown_thumb.png)](https://youtu.be/wBfttG0zpk0)
 
 ### Countdown Wiring
 
@@ -29,7 +33,7 @@ There’s no wiring in this assignment. Just plug the pico into the computer.
 
 ### Countdown Code
 
-[01-countdown.py](/code/01_countdown.py):
+[01_countdown.py](/code/01_countdown.py):
 
 ```python
 # 2022-09-02, Em Heisig (hheisig51)
@@ -57,19 +61,19 @@ As the countdown ticks down, a red light will blink every second. At 0 seconds (
 
 ### Lights Video
 
-[![Lights_2](/images/Thumbnail-Lights_2.png)](https://youtu.be/BNFl4jrQMi0)
+[![02_lights](/thumbs/02_lights_thumb.png)](https://youtu.be/BNFl4jrQMi0)
 
 ### Lights Wiring
 
-![02_lights_wiring](/images/Wiring/02_lights_wiring.png)
+![02_lights_wiring](/wiring/02_lights_wiring.png)
 
 ### Lights Code
 
-[02-lights.py](/code/02-lights.py):
+[02_lights.py](/code/02_lights.py):
 
 ```python
 # 2022-09-09, Em Heisig (hheisig51)
-# As the countdown (from 01-countdown.py) ticks down, a red light will blink every second. At 0 seconds (liftoff), a green LED will turn on.
+# As the countdown (from 01_countdown.py) ticks down, a red light will blink every second. At 0 seconds (liftoff), a green LED will turn on.
 
 import board
 import digitalio
@@ -102,19 +106,19 @@ This one was simple. Just remember, the long leg of the LED is the positive leg,
 
 ### Button Description
 
-In addition to the previous segments (see 01-countdown.py and 02-lights.py), this assignment adds a button to start the countdown.
+In addition to the previous segments (see 01_countdown.py and 02_lights.py), this assignment adds a button to start the countdown.
 
 ### Button Video
 
-[![Button_3](/images/Thumbnail-Button_3.jpg)](https://youtu.be/kNC3ZjlUSRQ)
+[![03_button](/thumbs/03_button_thumb.jpg)](https://youtu.be/kNC3ZjlUSRQ)
 
 ### Button Wiring
 
-![03_button_wiring](/images/Wiring/03_button_wiring.png)
+![03_button_wiring](/wiring/03_button_wiring.png)
 
 ### Button Code
 
-[03-button.py](/code/03-button.py)
+[03_button.py](/code/03_button.py)
 
 Let’s import our libraries and set up our LEDs’ like before.
 
@@ -171,19 +175,19 @@ It was very frustrating figuring that out. My advice is to ask whatever question
 
 ## Servo Description
 
-In addition to the previous segments (see 03-button.py), this assignment adds a servo that simulates “the launch tower disconnecting.” The servo will start at a position of 0 degrees, then move to 180 degrees when “liftoff” is achieved.
+In addition to the previous segments (see 03_button.py), this assignment adds a servo that simulates “the launch tower disconnecting.” The servo will start at a position of 0 degrees, then move to 180 degrees when “liftoff” is achieved.
 
 ## Servo Video
 
-[![Servo_4](/images/Thumbnail-Servo_4.jpg)](https://youtu.be/Ae4TovFA4m0)
+[![04-servo](/thumbs/04_servo_thumb.jpg)](https://youtu.be/Ae4TovFA4m0)
 
 ## Servo Wiring
 
-![04-servo.py](/images/Wiring/04_servo_wiring.png)
+![04_servo.py](/wiring/04_servo_wiring.png)
 
 ## Servo Code
 
-[04-servo.py](/code/04-servo.py):
+[04_servo.py](/code/04_servo.py):
 
 There is some new code relating to the servo, but it’s pretty standard. I recommend looking at the code file and its comments.
 
@@ -191,23 +195,23 @@ There is some new code relating to the servo, but it’s pretty standard. I reco
 
 This reflection is less about this singular assignment, but more about this Launch Pad assignment as a whole. I think it highlights the importance of segmenting your process when making something. Not fragmenting! You need to make sure things work together. But segmenting, and building one on top of the other, rather than building a servo and a button and lights and a countdown.
 
-## Accelerometer
+## Accelerometer (Crash Avoidance #1)
 
 ### Accelerometer Description
 
 This assignment just prints x, y, and z acceleration values from an MPU-6050 chip to the serial monitor.
 
-### Accelerometer Evidence
+### Accelerometer Video
 
-[![Accelerometer_5](/images/Thumbnail-Accelerometer_5.jpg)](https://youtu.be/TKAAT-HO4Mc)
+[![05_accelerometer](/thumbs/05_accelerometer_thumb.jpg)](https://youtu.be/TKAAT-HO4Mc)
 
 ### Accelerometer Wiring
 
-![05_accelerometer-wiring](/images/Wiring/05_accelerometer_wiring.png)
+![05_accelerometer-wiring](/wiring/05_accelerometer_wiring.png)
 
 ### Accelerometer Code
 
-[05_accelerometer.py](/code/05-accelerometer.py):
+[05_accelerometer.py](/code/05_accelerometer.py):
 
 ```python
 # 2022-09-29, Em Heisig (hheisig51)
@@ -232,19 +236,19 @@ while True: # cleans up and prints the x, y, and z values
 
 ### Accelerometer Reflection
 
-## Light and Powerboost (Crash Avoidance pt. 2)
+## Light and Powerboost (Crash Avoidance #2)
 
 ### Light Powerboost Description
 
 In this assignment, a red LED lights up if {x} is within a certain range (Acceleration of 0 to -4, which rougly corresponds with a rotation of 90 degrees).
 
-### Light Powerboost Evidence
+### Light Powerboost Video
 
-[![Light-Powerboost_6](/images/Thumbnail_Light-Powerboost_6.jpg)](https://youtu.be/jTGpdxc1or4)
+[![06_light-powerboost](/thumbs/06_light-powerboost_thumb.jpg)](https://youtu.be/jTGpdxc1or4)
 
 ### Light Powerboost Wiring
 
-![06_light-powerboost_wiring](/images/Wiring/06_light-powerboost_wiring.png)
+![06_light-powerboost_wiring](/wiring/06_light-powerboost_wiring.png)
 
 ### Light Powerboost Code
 
@@ -287,6 +291,20 @@ while True:
 ```
 
 ### Light Powerboost Reflection
+
+## OLED (Crash Avoidance #3)
+
+### OLED Description
+
+### OLED Video
+
+### OLED Wiring
+
+### OLED Code
+
+### OLED Reflection
+
+## Coordinates (Launch Pad #1)
 
 ## About
 
