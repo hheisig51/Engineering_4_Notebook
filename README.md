@@ -1,17 +1,34 @@
 # Engineering_4_Notebook
 
-## Table of Contents
+## Circuit Python Table of Contents
 
 - [Pico](#pico)
+
+### Launch Pad
+
 - [Countdown](#countdown-launch-pad-1)
 - [Lights](#lights-launch-pad-2)
 - [Button](#button-launch-pad-3)
 - [Servo](#servo-launch-pad-4)
+
+### Crash Avoidance
+
 - [Accelerometer](#accelerometer-crash-avoidance-1)
 - [Light & Powerboost](#light-and-powerboost-crash-avoidance-2)
 - [OLED](#oled-crash-avoidance-3)
-- [Coordinates](#coordinates-launch-pad-1)
+
+### Landing Area 
+
+- [Functions](#functions-landing-area-1)
+- [Plotting](#plotting-landing-area-2)
 - [About](#about)
+
+## CAD Table of Contents
+
+- [Ring & Spinner](#ring-and-spinner-cad-1)
+- [Key & Prop](#key-and-prop-cad-2)
+- [Assembling the Launcher](#assembling-the-launcher-cad-3)
+- [Let's Fly from this Branch!](#let-s-fly-from-this-branch-cad-4)
 
 ## Pico
 
@@ -304,7 +321,33 @@ while True:
 
 ### OLED Reflection
 
-## Coordinates (Launch Pad #1)
+## Functions (Landing Area #1)
+
+### Functions Description
+
+### Functions Video
+
+### Functions Wiring
+
+### Functions Code
+
+### Functions Reflection
+
+## Plotting (Landing Area #2)
+
+### Plotting Description
+
+### Plotting Video
+
+### Plotting Wiring
+
+### Plotting Code
+
+### Plotting Reflection
+
+## Ring and Spinner (CAD #1)
+
+## Key and Prop (CAD #2)
 
 ## About
 
