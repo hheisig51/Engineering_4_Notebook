@@ -1,5 +1,7 @@
 # Engineering_4_Notebook
 
+- [About](#about)
+
 ## Circuit Python Table of Contents
 
 - [Pico](#pico)
@@ -17,18 +19,16 @@
 - [Light & Powerboost](#light-and-powerboost-crash-avoidance-2)
 - [OLED](#oled-crash-avoidance-3)
 
-### Landing Area 
+### Landing Area
 
 - [Functions](#functions-landing-area-1)
 - [Plotting](#plotting-landing-area-2)
-- [About](#about)
 
 ## CAD Table of Contents
 
 - [Ring & Spinner](#ring-and-spinner-cad-1)
 - [Key & Prop](#key-and-prop-cad-2)
 - [Assembling the Launcher](#assembling-the-launcher-cad-3)
-- [Let's Fly from this Branch!](#let-s-fly-from-this-branch-cad-4)
 
 ## Pico
 
@@ -190,25 +190,25 @@ It was very frustrating figuring that out. My advice is to ask whatever question
 
 ## Servo (Launch Pad #4)
 
-## Servo Description
+### Servo Description
 
 In addition to the previous segments (see 03_button.py), this assignment adds a servo that simulates “the launch tower disconnecting.” The servo will start at a position of 0 degrees, then move to 180 degrees when “liftoff” is achieved.
 
-## Servo Video
+### Servo Video
 
 [![04-servo](/thumbs/04_servo_thumb.jpg)](https://youtu.be/Ae4TovFA4m0)
 
-## Servo Wiring
+### Servo Wiring
 
 ![04_servo.py](/wiring/04_servo_wiring.png)
 
-## Servo Code
+### Servo Code
 
 [04_servo.py](/code/04_servo.py):
 
 There is some new code relating to the servo, but it’s pretty standard. I recommend looking at the code file and its comments.
 
-## Servo Reflection
+### Servo Reflection
 
 This reflection is less about this singular assignment, but more about this Launch Pad assignment as a whole. I think it highlights the importance of segmenting your process when making something. Not fragmenting! You need to make sure things work together. But segmenting, and building one on top of the other, rather than building a servo and a button and lights and a countdown.
 
@@ -252,6 +252,8 @@ while True: # cleans up and prints the x, y, and z values
 ```
 
 ### Accelerometer Reflection
+
+&
 
 ## Light and Powerboost (Crash Avoidance #2)
 
@@ -309,6 +311,8 @@ while True:
 
 ### Light Powerboost Reflection
 
+&
+
 ## OLED (Crash Avoidance #3)
 
 ### OLED Description
@@ -321,11 +325,15 @@ In addition to the previous assignments, this adds an OLED screen to print the v
 
 ### OLED Wiring
 
+&
+
 ### OLED Code
 
 This assignment is rather long, so I recommend looking at it and its comments at the code file: [07-oled.py](/code/07_oled.py)
 
 ### OLED Reflection
+
+&
 
 ## Functions (Landing Area #1)
 
@@ -347,6 +355,8 @@ This assignment is lengthy, as its only code, no wiring. I recomend looking at i
 
 ### Functions Reflection
 
+&
+
 ## Plotting (Landing Area #2)
 
 ### Plotting Description
@@ -354,6 +364,22 @@ This assignment is lengthy, as its only code, no wiring. I recomend looking at i
 You have successfully written a script to calculate and return the area of each triangle. Now, your commander has asked that you include a small OLED screen to improve visualization of where the landing area is relative to the base.
 
 (Description taken from Paul Schakel ([pschake34](https://github.com/pschake34/Engineering_4_Notebook#landing-area-part-2)), with permission)
+
+### Plotting Video
+
+&
+
+### Plotting Wiring
+
+&
+
+### Plotting Code
+
+&
+
+### Plotting Reflection
+
+&
 
 ## Ring and Spinner (CAD #1)
 
