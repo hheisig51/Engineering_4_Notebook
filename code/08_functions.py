@@ -1,4 +1,6 @@
 # 2022-10-17, Em Heisig (hheisig51)
+# This assignment takes 6 inputs (of 3 coordinate pairs)
+# and returns the area of their triangle, or returns an error
 
 def isfloat(num):
     if len(num) < 6: # Checking if 6 items have been inputted
@@ -33,4 +35,3 @@ while True:
     coords = input().split(',', 6) # splits the input into 6 pieces, separated via comma
     print(f"\n{isfloat(coords)}\n") # either prints an error or the coordinate pairs
     print(f"{area(coords)}") # prints the valid area, or an error
-    

@@ -1,5 +1,5 @@
 # 2022-10-10, Em Heisig (hheisig51)
-# In addition to the previous assignment,
+# In addition to the previous assignments,
 # this adds an OLED screen to print the values.
 
 import board

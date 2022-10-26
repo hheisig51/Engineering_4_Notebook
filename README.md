@@ -313,11 +313,17 @@ while True:
 
 ### OLED Description
 
+In addition to the previous assignments, this adds an OLED screen to print the values.
+
 ### OLED Video
+
+[![07_oled](/thumbs/07_oled_thumb.jpg)](https://youtu.be/T-bkKQTI-oA)
 
 ### OLED Wiring
 
 ### OLED Code
+
+This assignment is rather long, so I recommend looking at it and its comments at the code file: [07-oled.py](/code/07_oled.py)
 
 ### OLED Reflection
 
@@ -325,11 +331,19 @@ while True:
 
 ### Functions Description
 
+This assignment takes 6 inputs (of 3 coordinate pairs) and returns the area of their triangle, or returns an error.
+
 ### Functions Video
+
+[![08_functions](/thumbs/08_functions_thumb.jpg)](https://youtu.be/5cZ8-UEdc7A)
 
 ### Functions Wiring
 
+No wiring was necessary for this assignment. Only the pico was used.
+
 ### Functions Code
+
+This assignment is lengthy, as its only code, no wiring. I recomend looking at it in its code file: [08_functions.py](/code/08_functions.py)
 
 ### Functions Reflection
 
@@ -337,17 +351,15 @@ while True:
 
 ### Plotting Description
 
-### Plotting Video
+You have successfully written a script to calculate and return the area of each triangle. Now, your commander has asked that you include a small OLED screen to improve visualization of where the landing area is relative to the base.
 
-### Plotting Wiring
-
-### Plotting Code
-
-### Plotting Reflection
+(Description taken from Paul Schakel ([pschake34](https://github.com/pschake34/Engineering_4_Notebook#landing-area-part-2)), with permission)
 
 ## Ring and Spinner (CAD #1)
 
 ## Key and Prop (CAD #2)
+
+## Assembling the Launcher (CAD #3)
 
 ## About
 
