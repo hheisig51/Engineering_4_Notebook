@@ -253,7 +253,7 @@ while True: # cleans up and prints the x, y, and z values
 
 ### Accelerometer Reflection
 
-&
+This assigment introduced a whole new part, one I hadn't used before, which introduced some new difficulties. **Working with the I2C clock working with only specific pins was hard**, but it got figured out. Also, condensing multiple lines of variables into one massive print statement took some time, but **f-strings are awesome.**
 
 ## Light and Powerboost (Crash Avoidance #2)
 
@@ -311,7 +311,7 @@ while True:
 
 ### Light Powerboost Reflection
 
-&
+There was not a lot of complexity with this assignment. Most of the heavy lifting was done already (in setting up the accelerometer). But, I didn't want the LED to just flicker and be done, but I also didn't want the serial monitor to be spammed with messages. So, I had to tackle a `for` loop, and adjust `time.sleep` values constantly. **I used the for loop to print the values every 5th time, but check them and trigger the LED every time**. This assignment was very trial and error.
 
 ## OLED (Crash Avoidance #3)
 
@@ -325,7 +325,7 @@ In addition to the previous assignments, this adds an OLED screen to print the v
 
 ### OLED Wiring
 
-&
+![07_oled](/wiring/07_oled_wiring.png)
 
 ### OLED Code
 
@@ -333,7 +333,7 @@ This assignment is rather long, so I recommend looking at it and its comments at
 
 ### OLED Reflection
 
-&
+This was a very fun assignment if you're just looking at the result. If you're looking at the process, it's very not-fun. I had quite a bit of trouble understanding **how/what/when the display rendered (helped by asking others, trial and error, and using tutorials straight from [the manufacturer](https://learn.adafruit.com/monochrome-oled-breakouts/circuitpython-wiring))**, which led to quite a few things getting cut off. But, eventually it came together, to make a very nice little display
 
 ## Functions (Landing Area #1)
 
@@ -355,7 +355,7 @@ This assignment is lengthy, as its only code, no wiring. I recomend looking at i
 
 ### Functions Reflection
 
-&
+Being such a code-heavy assigment, this was quite different. Each component was really basic! But, learning how to plug them into eachother was quite a struggle. **Properly naming variables was helpful, alongside using comments to mark different sections.** It was a very fun assignment, especially being able to go back and optimize it, and watch the code shrink.
 
 ## Plotting (Landing Area #2)
 
@@ -367,19 +367,19 @@ You have successfully written a script to calculate and return the area of each 
 
 ### Plotting Video
 
-&
+%^
 
 ### Plotting Wiring
 
-&
+%^
 
 ### Plotting Code
 
-&
+%^
 
 ### Plotting Reflection
 
-&
+%^
 
 ## Ring and Spinner (CAD #1)
 
