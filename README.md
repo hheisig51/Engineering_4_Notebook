@@ -383,61 +383,19 @@ You have successfully written a script to calculate and return the area of each 
 
 ## Ring and Spinner (CAD #1)
 
-### Ring and Spinner Description
-
-"Now that you have your team settled, let's start modeling your pieces of the final assembly. In this lesson, you will make the Spinner, as pictured below.
-
-The bottom of the spinner has teeth that will mesh with the key and be driven when the key is pulled out of the toy. The top is where the prop will sit and take off from. This is a pretty important and cool piece!"
-
-- [Onshape Unit 4](https://cvilleschools.onshape.com/documents/42937f422f88d8bb3d6f1868/w/5e7fc460e878b1411e232da2/e/305007e0abd23e7c510d7928)
-
-### Ring and Spinner Link
-
-[Onshape Link](https://cvilleschools.onshape.com/documents/42937f422f88d8bb3d6f1868/w/5e7fc460e878b1411e232da2/e/8a1a2adf66bb568d7e1749f7)
-
-### Ring and Spinner Image
-
-%^
-
-### Ring and Spinner Reflection
-
-%^
+[YouTube Video](https://youtu.be/zEwl4CR2OoU)
 
 ## Key and Prop (CAD #2)
 
-### Key and Prop Description
-
-%^
-
-### Key and Prop Link
-
-%^
-
-### Key and Prop Image
-
-%^
-
-### Key and Prop Reflection
-
-%^
+[YouTube Video](https://youtu.be/kv5vYqcN8EE)
 
 ## Assembling the Launcher (CAD #3)
 
-### Assembling the Launcher Description
+[YouTube Video](https://youtu.be/9Jrw4E2yTGc)
 
-%^
+## FEA
 
-### Assembling the Launcher Link
-
-%^
-
-### Assembling the Launcher Image
-
-%^
-
-### Assembling the Launcher Reflection
-
-%^
+[YouTube Video](https://youtu.be/Nc99RhlhhUI)
 
 ### Beam Design (FEA #1)
 
