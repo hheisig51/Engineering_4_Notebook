@@ -439,6 +439,16 @@ The bottom of the spinner has teeth that will mesh with the key and be driven wh
 
 %^
 
+### Beam Design (FEA #1)
+
+## Beam Design Description
+
+To design a 3D-printed beam to withstand the most force before breaking, or bending more than 35 mm.
+
+## Beam Design Evidence
+
+## Beam Design Reflection
+
 ## About
 
 “Somebody is thinking today” - Mr. Miller
